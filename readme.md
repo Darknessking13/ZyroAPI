@@ -59,7 +59,7 @@ ZyroAPI delivers **production-ready performance** that rivals industry leaders:
 - 🧼 **Centralized error handling** - Consistent error responses
 - 📝 **Request decorations** - `req.params`, `req.query`, `req.body`, `req.ip`, etc.
 - 🎨 **Beautiful logging** - Colorful, informative console output
-- 💪 **TypeScript ready** - Full type definitions included
+- 💪 **TypeScript support** - Full type definitions included (`index.d.ts`)
 
 ---
 

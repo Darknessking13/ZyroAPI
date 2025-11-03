@@ -3,12 +3,14 @@
   "version": "0.0.1-preview",
   "description": "A modern, minimalist, and fast Node.js framework for REST APIs",
   "main": "./lib/zyroapi.js",
+  "types": "./index.d.ts",
   "files": [
     "lib/",
     "docs/",
     "README.md",
     "LICENSE",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "index.d.ts"
   ],
   "exports": {
     ".": "./lib/zyroapi.js",
