@@ -1,0 +1,116 @@
+# .npmignore - Files to exclude from npm package
+
+# IMPORTANT: Files to explicitly INCLUDE (use ! to negate)
+# These override any exclusions
+!lib/
+!lib/**/*
+!docs/
+!README.md
+!readme.md
+!LICENSE
+!CHANGELOG.md
+!package.json
+
+# Development and Testing
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+
+# Benchmarks
+benchmark/
+benchmarks/
+
+# Examples (keep example/ folder but exclude old server.js)
+examples/
+server.js
+
+# Plugins (external plugins, not core)
+plugins/
+
+# Documentation (keep essential docs, exclude development docs)
+PRE-RELEASE-CHECKLIST.md
+SHIPPING-GUIDE.md
+MIGRATION.md
+QUICK-START.md
+docs/cpu-optimization-plan.md
+docs/critical-optimizations-applied.md
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+appveyor.yml
+.circleci/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build and Scripts
+scripts/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Lock files (let users generate their own)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Node modules (obviously)
+node_modules/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Misc development files
+TODO.md
+NOTES.md
+.editorconfig
+.eslintrc*
+.prettierrc*
+.stylelintrc*
+tsconfig.json
+jsconfig.json
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
