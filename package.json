@@ -1,6 +1,6 @@
 {
   "name": "zyroapi",
-  "version": "0.0.2-preview",
+  "version": "0.0.2",
   "description": "A modern, minimalist, and fast Node.js framework for REST APIs",
   "main": "./lib/zyroapi.js",
   "types": "./index.d.ts",
