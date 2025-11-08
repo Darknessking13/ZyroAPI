@@ -37,7 +37,7 @@ ZyroAPI delivers **production-ready performance** that rivals industry leaders:
 ### 🚀 **Key Features**
 
 #### Core Routing
-- ⚡ **High-performance routing** powered by `find-my-way`
+- ⚡ **High-performance routing**
 - 🛣️ **All HTTP methods** (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD)
 - 📍 **Route parameters** (`:id`) and **wildcards** (`*`)
 - 🔍 **Query string parsing** built-in
@@ -307,7 +307,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📬 Support
 
-- 📖 [Documentation](./docs/)
 - 🐛 [Issue Tracker](https://github.com/Darknessking13/ZyroAPI/issues)
 - 💬 [Discussions](https://github.com/Darknessking13/ZyroAPI/discussions)
 

@@ -1,6 +1,6 @@
 {
   "name": "zyroapi",
-  "version": "0.0.2",
+  "version": "0.0.1-preview",
   "description": "A modern, minimalist, and fast Node.js framework for REST APIs",
   "main": "./lib/zyroapi.js",
   "types": "./index.d.ts",
@@ -23,7 +23,6 @@
     "start": "node example/server.js",
     "test": "node test/test-suite.js",
     "test:verbose": "NODE_ENV=development node test/test-suite.js",
-    "benchmark": "node benchmark/simple-route.js",
     "benchmark:full": "node benchmark/benchmark.js",
     "validate": "node scripts/validate-release.js",
     "check-package": "npm pack --dry-run",
@@ -37,8 +36,7 @@
     "find-my-way": "^9.3.0",
     "log-symbols": "^2.2.0",
     "mime-types": "^3.0.1",
-    "type-is": "^1.6.18",
-    "zyroapi": "^0.0.1-preview"
+    "type-is": "^1.6.18"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -62,7 +60,6 @@
     "express": "^5.1.0",
     "express-session": "^1.18.1",
     "fastify": "^5.2.2",
-    "neoapi": "file:",
     "pidusage": "^4.0.0"
   }
 }
